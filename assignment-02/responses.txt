@@ -1,11 +1,10 @@
-1. Data travels through the internet in packets.  Each packet is a smaller piece of a whole. A packet is a small part of an mp3 file or photo, webpage etc.  These packets can travel on completely different routes from the source to your computer where they are reassembled to create the whole file you requested.
+1. Data travels through the internet in packets.  Each packet is a smaller piece of a whole (mp3 file or photo, webpage etc.)  These packets can travel on completely different routes from the source to your computer where they are reassembled to create the whole file you requested.
 
-The DNS is the Domain Name System. When you request information through a web browser, your request is sent to a DNS server.  The server finds the IP address of the information that has been requested while also remembering your unique IP address.  The DNS server can then find the IP address that you requested and send it back to you because of the unique address your device is using. The DNS is like the postal service, the IP addresses are like the SEND TO: and the RETURN ADDRESS.
+2. The DNS is the Domain Name System. When you request information through a web browser, your request is sent to a DNS server.  The server finds the IP address of the information that has been requested while also remembering your own unique IP address.  The DNS server can then find the IP address that you requested and send it back to your device's unique address. The DNS is like the postal service, the IP addresses are like the SEND TO: and the RETURN ADDRESS.
 
-Cookies are small files that a website creates on your computer when you interact with that website. These cookies are information about how you have interacted with the website previously.  When you return to the same website again and again, the website can access these cookies to "remember" how you have interacted with the website in the past.  Cookies can create a better overall internet experience because the website can identify you as an individual client rather than a new visitor every time.
+3. Cookies are small files that a website creates on your computer when you interact with that website. These cookies are information about how you have interacted with the website previously.  When you return to the same website again and again, the website can access these cookies to "remember" how you have interacted with the website in the past.  Cookies can create a better overall experience because the website can identify you as an individual client rather than a new visitor every time.  *They can also be creepy.*
 
-A URL, or uniform resource locator, is made up of a protocol, domain and path.
-
+4. A URL, or uniform resource locator, is made up of a protocol, domain and path.
 -The protocol is the language used to "talk" with web servers, like HTTP.
 -A domain is a unique address that a person purchases for their own website.
 -Paths are how the computer knows where to find files, images, pages within the whole website.  It is a way of mapping or navigating through all of the files that make up the website so that you find the page (or image or sound) you are looking for.
