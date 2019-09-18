@@ -6,4 +6,4 @@ Browsers find, access and display content on your personal computer. I use Googl
 
 2. Markup is a type language used to develop websites. A markup language is comprised of "tags" that create proper structure and different elements to a page.  Html is a markup language and the tags are made up of <> enclosures. For instance a letter "p" surrouded by <> and another "p" surround by </> with plain text typed inbetween, creates a paragraph.
 
-3. ![My Screenshot](./images/CaptureFirstPage.PNG)
+3. [My Screenshot](./images/CaptureFirstPage.PNG)
