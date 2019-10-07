@@ -9,7 +9,7 @@
     <meta name="author" content="Anna Lane">
     <style>
     table.GeneratedTable {
-      width: 100%;
+      width: 75%;
       background-color: #8c8cc6;
       border-collapse: collapse;
       border-width: 4px;
@@ -34,41 +34,73 @@
 
     <body>
       <h1>Justin's Hob Nob on Higgins</h1>
-      <h2>Contact Page</h2>
+      <hr>
+      <h1>Contact Page</h1>
 
       <p>
         <address>
         531 S. Higgins Avenue <br>
         Missoula, MT<br>
-        406-541-4622
+        <p>406-541-4622</p>
         </address>
       </p>
 <h3>If you need...</h3>
 <p><a href="mailto:anna.lane@umontana.edu">E-mail me</a> for recommendations.</p>
 
+<hr>
+
+<h3>Open 7 Days a Week! <br> (closed most holidays)</h3>
+
 <table class="GeneratedTable">
   <thead>
     <tr>
-      <th>Header</th>
-      <th>Header</th>
+      <th>Weekday Hours</th>
+      <th>Weekend Hours</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Cell</td>
-      <td>Cell</td>
+      <td>Breakfast 7am-Noon</td>
+      <td>Breakfast ALL DAY!<br>
+      **Open at 8am**</td>
     </tr>
     <tr>
-      <td>Cell</td>
-      <td>Cell</td>
+      <td>Lunch 11-4</td>
+      <td>Lunch 11-4</td>
+
     </tr>
   </tbody>
 </table>
 
+<h3>We would love to hear from you!</h3>
 
+<form action="http://www.example.com/comments.php" method="post">
+<p>
+  Your Name:</p>
+  <input type="text" name="name" maxlength="30" id="test-text" />
 
+<p>Favorite Menu:</p>
+  <input type="radio" name="menu" value="B" /> Breakfast
+  <br />
+  <input type="radio" name="menu" value="L" /> Lunch
+  <br />
+  <input type="radio" name="menu" value="BL" /> BOTH
 
+  <p>Should we have breakfast all-day every day?</p>
+    <input type="radio" name="all-day" value="Y" /> Yes
+    <br />
+    <input type="radio" name="all-day" value="N" /> No
+    <br />
+    <input type="radio" name="all-day" value="DC" checked /> Don't Care
 
+<p>
+  Questions, Comments or Concerns: </p>
+  <textarea cols="50" rows="10" name="comments" maxlength="500">Enter up to 500 characters...
+  </textarea>
+  <br><br>
+  <input type="button" value="Submit">
+
+</form>
 
     </body>
   </html>
