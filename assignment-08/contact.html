@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
   <head>
-    <title>###</title>
+    <title>Contact</title>
     <meta charset="utf-8">
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
              background-color: darkslategrey;
              color: azure;
              font-size: 1.1em;
+             text-align: center;
          }
          h1 {
              color: coral;
@@ -22,24 +23,98 @@
          .colorful {
              color: orange;
          }
+
+         table.GeneratedTable {
+           width: 75%;
+           background-color: lightgrey;
+           border-collapse: collapse;
+           border-width: 4px;
+           border-color: coral;
+           border-style: solid;
+           color: darkslategrey;
+           align-content: center;
+         }
+
+         table.GeneratedTable td, table.GeneratedTable th {
+           border-width: 4px;
+           border-color: coral;
+           border-style: solid;
+           padding: 5px;
+         }
+
+         table.GeneratedTable thead {
+           background-color: coral;
+         }
      </style>
+
      </head>
 
 
      <body>
        <header>
-         <h1>Contact</h1>
+
          <nav>
-           <ul>
+           <ul align="left">
              <li><a href="./index.html" class="colorful">Home</a></li>
              <li><a href="./contact.html" class="colorful">Contact</a></li>
              <li><a href="./about.html" class="colorful">Extras</a></li>
              </ul>
            </nav>
          </header>
+<h1>Contact Page</h1>
 
-         <h1>Embedded Styles</h1>
-         <p id="intro">Allow you to define styles for the whole document.</p>
-         <p class="colorful">This has a style applied via a class.</p>
+         <p id="intro">Anna Lane <br>
+           University of Montana</p>
+         <table class="GeneratedTable" align="center">
+           <thead>
+             <tr>
+               <th>Via Email</th>
+               <th>Via Snailmail</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td><a href="mailto:anna.lane@umontana.edu">Click here to use your email app!</a></td>
+               <td>Write to: Anna Lane c/o</td>
+             </tr>
+             <tr>
+               <td>or: anna.lane@umt.umconnect.edu</td>
+               <td><address>The University of Montana<br />
+               32 Campus Dr<br />
+               Missoula, MT 59812
+             </address></td>
+
+             </tr>
+           </tbody>
+         </table>
+
+         <form action="http://www.example.com/comments.php" method="post">
+         <p>
+           Your Name:</p>
+           <input type="text" name="name" maxlength="30" id="test-text" />
+
+         <p>Favorite Menu:</p>
+           <input type="radio" name="menu" value="B" /> Breakfast
+           <br />
+           <input type="radio" name="menu" value="L" /> Lunch
+           <br />
+           <input type="radio" name="menu" value="BL" /> BOTH
+
+           <p>Should we have breakfast all-day every day?</p>
+             <input type="radio" name="all-day" value="Y" /> Yes
+             <br />
+             <input type="radio" name="all-day" value="N" /> No
+             <br />
+             <input type="radio" name="all-day" value="DC" checked /> Don't Care
+
+         <p>
+           Questions, Comments or Concerns: </p>
+           <textarea cols="50" rows="10" name="comments" maxlength="500">Enter up to 500 characters...
+           </textarea>
+           <br>
+           <input type="image" src="./images/submit-button.png" alt="subscribe button image" width="120" height="100" />
+
+         </form>
+         
      </body>
     </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
   <head>
-    <title>###</title>
+    <title>About</title>
     <meta charset="utf-8">
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
@@ -22,13 +22,22 @@
          .colorful {
              color: orange;
          }
+       .container {
+         background-color: darkslategrey;
+         width: 750px;
+         margin: auto;
+         padding: 20px;
+         border: 1px solid black;
+         color: orange;
+         font-size: 1.8;
+       }
      </style>
  </head>
  <body>
     <header>
       <h1>Extra Tidbits</h1>
       <nav>
-        <ul>
+        <ul align="left">
           <li><a href="./index.html" class="colorful">Home</a></li>
           <li><a href="./contact.html" class="colorful">Contact</a></li>
           <li><a href="./about.html" class="colorful">Extras</a></li>
@@ -38,8 +47,26 @@
 
 
 
-     <p id="intro">Allow you to define styles for the whole document.</p>
-     <p class="colorful">This has a style applied via a class.</p>
-     <p> What should we talk about today? </p>
+     <p id="intro">Why fix old cords?</p>
+
+       <ol class="colorful">
+         <li>I have a huge heart for recycling.  I also have limited cash most of the time.</li>
+     <li>Sometimes, I find that certain things in my house are just sentimental and irreplaceable.</li>
+   <li>The more things that we can repair in our own homes makes us more self-sufficient and consume less.</li>
+</ol>
+
+     <p align="center"> If you are looking to learn more, I suggest Bill Marken's book, <em>How to Fix Just About Anything</em>.</p>
+       <p class="container">
+         The first time I performed this simple fix was with a close friend.  Her lamp was an antique.
+         We looked up a video online after following instructions in the book she had on hand. Later on,
+         I was looking at on-line videos and found some helpful tutorials. In the end, we found instructions
+         on how to re-wire her lamp completely!  Now it has an antique body but a new age "spirit".  </p>
+
+         <p align="center">For additional help, here's a video tutorial I found. </p>
+
+<div id="video" class="container" align="center">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/t9cHV1ORDls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
  </body>
 </html>
