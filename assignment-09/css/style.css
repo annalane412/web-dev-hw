@@ -1,0 +1,31 @@
+/*I'm really getting the hang of this! (famous last words)*/
+body {text-align: center;
+  padding: 15px;
+  border: 7px teal;
+  border-style: double;
+  color:#F8F8FF;
+  background: #8B008B;
+}
+
+.main-content {background: #FFD700;
+  border: 10px #CC3399;
+  border-style: groove;
+  padding: 15px;
+  color: #000000;
+}
+
+p {}
+
+img {border-style: outset;
+    border-width: 5px;
+    border-color: #0039E6;
+  }
+
+
+hr {border-style:dotted;
+    borderstyle: double;
+    boder-width: 10px;
+    border-color: teal;
+  }
+h1, h2{color: #F8F8FF;
+}
