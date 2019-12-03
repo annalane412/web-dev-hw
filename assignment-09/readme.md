@@ -9,18 +9,23 @@ a class adheres code to a specific div or to all divs on the page, you can add a
 Briefly discuss your color palette, including the 3 colors you chose. List their color names, rgb values, or hex codes.
 
 My primary color palette was focused on jewel tones, but I did not like the assigned RGB values to amethyst and emerald green... they weren't the colors I remember from the 90s.  However, citrine yellow seemed spot on.  So, I used the color picker as well as choosing my own 90s jewel Tones.
+
 my primary colors were:
+
 citrine yellow #e4d00a (which replaced my original #ffd700 gold)
+
 teal #008080
+
 #8B008B color picker purple
 
 i had fun playing around with colors and looking at old photos from the nineties... so I also included:
 
 #CC3399 color picker - I will call rose-quartz
+
 #C5B358 Vegas gold
+
 ‎#0F52BA sapphire blue
   that I used to replace border-color: #0039E6 color picker blue, when I realized what name to call it :)
-and other colors to accent the page
 
 Free Response: Summarize your work cycle for this assignment
 
