@@ -5,8 +5,13 @@ body {text-align: center;
   border-style: double;
   color:#F8F8FF;
   background: #8B008B;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
+
+/*I left the old color because as I was playing around with my palette I found it all to be very confusing
+and it was easier to keep track of my changes and playing without deleting an RGD code every time
+maybe in the future this is unproffessional but it was helpful this time*/
 
 .main-content {background: #FFD700;
   background-color: #e4d00a;
@@ -24,6 +29,9 @@ p {
   opacity: .5;
 }
 
+/*I left the old color because as I was playing around with my palette I found it all to be very confusing
+and it was easier to keep track of my changes and playing without deleting an RGD code every time*/
+
 img {border-style: outset;
     border-width: 5px;
     border-color: #0039E6;
@@ -36,6 +44,11 @@ hr {border-style:dotted;
     boder-width: 10px;
     border-color: teal;
   }
-h1, h2{color: #F8F8FF;
+h1, h3{color: #F8F8FF;
   opacity: .8;
+
+}
+
+h3{color: #000000;
+  font-style: oblique;
 }
