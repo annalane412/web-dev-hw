@@ -5,20 +5,29 @@ body {text-align: center;
   border-style: double;
   color:#F8F8FF;
   background: #8B008B;
+
 }
 
 .main-content {background: #FFD700;
+  background-color: #e4d00a;
   border: 10px #CC3399;
   border-style: groove;
   padding: 15px;
   color: #000000;
 }
 
-p {}
+#metallic {
+  background-color: #C5B358
+}
+
+p {
+  opacity: .5;
+}
 
 img {border-style: outset;
     border-width: 5px;
     border-color: #0039E6;
+    border-color: #0F52BA;
   }
 
 
@@ -28,4 +37,5 @@ hr {border-style:dotted;
     border-color: teal;
   }
 h1, h2{color: #F8F8FF;
+  opacity: .8;
 }
