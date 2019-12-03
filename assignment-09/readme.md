@@ -16,7 +16,7 @@ teal #008080
 
 i had fun playing around with colors and looking at old photos from the nineties... so I also included:
 
-#CC3399 color picker
+#CC3399 color picker - I will call rose-quartz
 #C5B358 Vegas gold
 ‎#0F52BA sapphire blue
   that I used to replace border-color: #0039E6 color picker blue, when I realized what name to call it :)
