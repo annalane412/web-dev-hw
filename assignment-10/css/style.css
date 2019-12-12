@@ -1,0 +1,78 @@
+body{
+  color: 	#8B4513;
+  background-color: #FFDEAD;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+p:first-of-type:first-line{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1.5em;
+}
+
+.femme{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2em;
+
+
+}
+
+h1{
+  color: #432109;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+
+}
+
+#olive{
+  width: 100%;
+  background-color: #808000;
+}
+
+main {
+  background-color: #808000;
+  color: #432109;
+  width: 73%;
+  height: 200px;
+  float: left;
+  line-height: 1.5em;
+  padding: 1%
+
+}
+
+aside{
+  background-color: #FFDEAD;
+  border: 3px #432109;
+  width: 23%;
+  height: 200px;
+  line-height: 2em;
+  padding: 1%;
+  text-align: middle;
+  float: left;
+
+
+}
+
+a {
+  background-color: #432109;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #808000;
+  color: #432109;
+  font-weight: bold;
+  padding: 10px;
+
+}
+a:visited {
+  background color: #FFDEAD;
+  color: 	#8B4513;
+  padding: 10px
+
+}
