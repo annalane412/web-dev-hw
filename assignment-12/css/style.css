@@ -1,44 +1,8 @@
 body {
   background-color: #C8C3CC;
   color: #50394C;
-  margin: 20px;
 }
-#index {
-  max-width: 1000px;
-  min-width: 500px;
-}
-h1{
-  font-family: 'vol', arial, sans-serif;
-  font-size: 30pt;
-  margin-top: 1.25em;
-  border: 5px solid #50394C;
-  padding: 20px;
-  border-radius: 20px;
- display: inline-block;
-}
-
-#main{
-  display: block;
-  float: left;
-
-}
-.font2{
-  font-family: 'exo-boldital';
-  display: block;
-
-}
-
-.font3{
-  font-family: 'vol-ital';
-  font-size: 3em;
-  float: right;
-  width: 60%
-  min-width: 500px;
-}
-
 /*navitgation bar working*/
-
-
 ul  {
   font-family: 'exo-bold', arial, sans-serif;
   font-size: 20pt;
@@ -49,7 +13,7 @@ ul  {
     position: fixed;
     top: 0;
     width: 100%;
-
+      z-index: 5;
   }
 li a {
     display: inline-block;
@@ -64,8 +28,7 @@ li a {
   a:hover {
   background-color: #50394C;
 }
-
-/*navitgation bar working*/
+/*drop navitgation bar working*/
 .drop:hover {
   background-color: #50394C;
 }
@@ -82,7 +45,7 @@ li a {
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      z-index: 1;
+
 }
 
 .dropitems {
@@ -90,7 +53,7 @@ li a {
   display: none;
   background-color: #50394C;
   color: #8CA3A3;
-  z-index: 1;
+  z-index: 5;
 }
 .drop:hover .dropitems {
   display: block;
@@ -99,4 +62,60 @@ li a {
 .dropitems a:hover {
   background-color: #8CA3A3;
   color: #50394C;
+}
+
+#index {
+  max-width: 950px;
+  min-width: 800px;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+
+}
+h1{
+  font-family: 'vol', arial, sans-serif;
+  font-size: 30pt;
+  margin-top: 1.25em;
+  border: 5px solid #50394C;
+  padding: 20px;
+  border-radius: 20px;
+  width: 450px;
+}
+
+#main{
+  float: left;
+  position: fixed;
+  left: 10px;
+}
+.font3{
+  font-family: 'vol-ital';
+  font-size: 3em;
+  float: right;
+  width: 60%;
+  position: absolute;
+  left: 450px;
+  z-index: 2;
+}
+.font2{
+  font-family: 'exo-boldital';
+  position: fixed;
+
+}
+
+pre {
+  font-family: 'exo';
+  padding-left: 10px;
+  float: right;
+    position: absolute;
+  top: 250px;
+  left: 450px;
+  width: 60%
+    z-index: 1;
+
+}
+pre:first-line,first-of-type {
+  font-family: 'vol-ital';
+  font-size: 15pt;
+  font-stretch: expanded;
+  z-index: 1;
+
 }
