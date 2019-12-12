@@ -62,7 +62,7 @@ aside{
   float: left;
 }
 
-a {
+a:link {
   background-color: #432109;
     font-family: 'Lato', sans-serif;
   color: #FFFFFF;

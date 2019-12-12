@@ -1,0 +1,64 @@
+/* This is the file, "fonts.css." */
+@font-face {
+   font-family: 'exo';
+   src: url('../fonts/exo/Exo-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'exo-ital';
+   src: url('../fonts/exo/Exo-Italic.ttf') format('truetype');
+   font-weight: normal;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'exo-bold';
+   src: url('../fonts/exo/Exo-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'exo-boldital';
+   src: url('../fonts/exo/Exo-Bolditalic.ttf') format('truetype');
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'exo-light';
+   src: url('../fonts/exo/Exo-Light.ttf') format('truetype');
+   font-weight: 200;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'exo-exbold';
+   src: url('../fonts/exo/Exo-ExtraBold.ttf') format('truetype');
+   font-weight: 900;
+   font-style: normal;
+}
+
+/*vollkhorn*/
+
+@font-face {
+   font-family: 'vol-bold';
+   src: url('../fonts/vollkorn/Vollkorn-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'vol-ital';
+   src: url('../fonts/vollkorn/Vollkorn-Italic.ttf') format('truetype');
+   font-weight: normal;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'vol-boldital';
+   src: url('../fonts/vollkorn/Vollkorn-Bolditalic.ttf') format('truetype');
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'vol';
+   src: url('../fonts/vollkorn/Vollkorn-Regular.ttf') format('truetype');
+   font-weight: 200;
+   font-style: normal;
+}
