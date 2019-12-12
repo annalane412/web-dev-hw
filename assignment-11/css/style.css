@@ -1,9 +1,100 @@
+body{
+    font-family: 'Courgette', cursive;
+}
+
+/*top menu and basic navigation*/
+
 .navigation {
-  width: 100%;
+  width: 90%;
   height: 200px
   max-width: 1200px;
   min-width: 200px;
   border: 20px solid teal;
   padding: 10px;
   margin: 30px;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    background-color: teal;
+    line-height: 2.1em;
+    display: inline;
+
+  }
+.menu-item:hover {
+    background-color: pink;
+    color: black;
+}
+
+/*hidden container*/
+
+.container {
+    font-family: 'Amatic SC', Arial, sans-serif;
+    font-size: 20pt;
+      font-weight: bolder;
+    width: 50%;
+    min-width: 300px;
+    background-color: pink;
+    margin: auto;
+    float: left;
+}
+
+.header {
+    font-size: 1.5em;
+    padding: 5%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #006666;
+}
+
+.hidden-content {
+    display: none;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.container:hover .hidden-content {
+    display: block;
+}
+
+.main{
+  font-family: 'Courgette', cursive;
+  font-size: 20pt;
+  width: 50%;
+  min-width: 300px;
+  background-color: #006666;
+  float: right;
+}
+
+.poster{
+  font-size:1.5em;
+  padding: 5%;
+  text-align: center;
+  color:#000000;
+  background-color: pink;
+}
+
+.hiding{
+  display: none;
+  font-family: 'Amatic SC', Arial, sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 5%;
+
+}
+
+.main:hover .hiding {
+  display: block;
 }
