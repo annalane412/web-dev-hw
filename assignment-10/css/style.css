@@ -7,15 +7,19 @@ body{
 }
 
 p:first-of-type:first-line{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.5em;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.8em;
   font-weight: 200;
   line-height: 1.5em;
 }
 
 .femme{
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.5em;
+
+}
+h3{
   font-size: 1.2em;
 
 }
@@ -24,6 +28,7 @@ h1{
   color: #432109;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  font-style: oblique;
   padding: 10px;
 
 }
@@ -37,10 +42,11 @@ main {
   background-color: #808000;
   color: #432109;
   width: 73%;
-  height: 200px;
-  float: left;
+  height:auto;
+    float: left;
   line-height: 1.5em;
-  padding: 1%
+  padding: 1%;
+  font-size: 1.8em;
 
 }
 
@@ -49,7 +55,7 @@ aside{
   border: 3px #432109;
   width: 23%;
   height: 200px;
-  line-height: 2em;
+  line-height: 1.8em;
   padding: 1%;
   text-align: middle;
   float: left;
@@ -57,12 +63,14 @@ aside{
 
 a {
   background-color: #432109;
+    font-family: 'Lato', sans-serif;
   color: #FFFFFF;
   padding: 10px;
 }
 
 a:hover {
   background-color: #808000;
+    font-family: 'Lato', sans-serif;
   color: #432109;
   font-weight: bold;
   padding: 10px;
@@ -70,6 +78,7 @@ a:hover {
 }
 a:visited {
   background color: #FFDEAD;
+    font-family: 'Lato', sans-serif;
   color: 	#8B4513;
   padding: 10px
 
