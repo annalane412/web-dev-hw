@@ -1,6 +1,7 @@
 body{
   color: 	#8B4513;
   background-color: #FFDEAD;
+   border: 10px brown;
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
 }
@@ -16,7 +17,6 @@ p:first-of-type:first-line{
   text-align: center;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.2em;
-
 
 }
 
@@ -53,8 +53,6 @@ aside{
   padding: 1%;
   text-align: middle;
   float: left;
-
-
 }
 
 a {
