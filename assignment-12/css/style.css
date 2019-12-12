@@ -3,19 +3,37 @@ body {
   color: #50394C;
   margin: 20px;
 }
+#index {
+  max-width: 1000px;
+  min-width: 500px;
+}
 h1{
   font-family: 'vol', arial, sans-serif;
-  padding-top: 50px;
   font-size: 30pt;
+  margin-top: 1.25em;
+  border: 5px solid #50394C;
+  padding: 20px;
+  border-radius: 20px;
+ display: inline-block;
 }
 
+#main{
+  display: block;
+  float: left;
+
+}
 .font2{
   font-family: 'exo-boldital';
+  display: block;
+
 }
 
 .font3{
   font-family: 'vol-ital';
   font-size: 3em;
+  float: right;
+  width: 60%
+  min-width: 500px;
 }
 
 /*navitgation bar working*/
@@ -64,6 +82,7 @@ li a {
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
+      z-index: 1;
 }
 
 .dropitems {
