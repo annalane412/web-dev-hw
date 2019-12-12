@@ -45,6 +45,7 @@ main {
   height:auto;
     float: left;
   line-height: 1.5em;
+  text-shadow: 1px 1px 1px #000000;
   padding: 1%;
   font-size: 1.8em;
 
