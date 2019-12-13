@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
   <head>
-    <title>###</title>
+    <title>Contact Us</title>
         <link rel="stylesheet" type="text/css" href="./css/fonts.css">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/form.css">
     <meta charset="utf-8">
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CSSpage">
+    <meta name="description" content="CSSpageContact">
     <meta name="author" content="Anna Lane">
 
 </head>
@@ -26,14 +27,41 @@
           <a href="https://www.medicalnewstoday.com/articles/265922.php">Medicinal</a>
           </div>
 </div>
-    </li>
-  </ul>
-
-
+</li>
+</ul>
+<div id="index">
 <h1>
-  Contact Us
+  We love to help... <br> and often need it ourselves!
   </h1>
 
+  <hr>
 
+<form action="http://example.com/form.php" method="get">
+  <fieldset>
+    <legend>How can we help you?   </legend>
+    <p>
+      <label class="title" for="name">Your name:</label>
+      <input type="text" name="name" id="name">             <br>
+      <label class="title" for="email">Your e-mail:</label>
+      <input type="text" name="email" id="email">
+    </p><p>
+      <label for="interest" class="title">What interests you most?</label>
+      <select name="interest" id="interest">
+        <option value="TEA">Teas and Herbs</option>
+        <option value="TINCT">Tinctures and Oils</option>
+        <option value="ANX">Anxiety</option>
+        <option value="DIG">Digestion</option>
+        <option value="GAP">Gardening and Processing</option>
+      </select>
+    </p>
+
+<span class="title">Would you like to receive our news letter?</span> <br>
+<label class='radio'><input type="radio" name=news" value="y" />YES!</label>
+<label class='radio'><input type="radio" name=news" value="n" />No, thanks.</label>
+
+  <div class="submit"><input type="submit" value="Submit" /></div>
+    </fieldset>
+</form>
+</div>
   </body>
   </html>

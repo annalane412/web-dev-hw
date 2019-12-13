@@ -56,7 +56,7 @@ li a {
   display: none;
   background-color: #50394C;
   color: #8CA3A3;
-
+    text-align: center;
   z-index: 5;
 }
 .drop:hover .dropitems {
@@ -79,6 +79,8 @@ h1{
   font-size: 30pt;
   text-align: center;
   margin-top: 1.25em;
+  margin-left: auto;
+  margin-right: auto;
   border: 5px solid #50394C;
   padding: 20px;
   border-radius: 20px;
@@ -97,7 +99,7 @@ h1{
   float: right;
   width: 60%;
   position: absolute;
-  left: 450px;
+  left: 425px;
   z-index: 2;
 }
 .font2{
@@ -126,4 +128,8 @@ pre:first-line,first-of-type {
 h4 {
   font-family: 'exo-light', sans-serif;
   font-size: .7em;
+}
+hr {
+      border: 5px dotted #50394C;
+      width: 100%;
 }

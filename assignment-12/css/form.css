@@ -1,0 +1,49 @@
+fieldset {
+  width: 450px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #50394C;
+  background-color: #8CA3A3;
+  line-height: 2em;
+  border-radius: 30px;
+}
+legend {
+  font-family: 'vol-ital', serif;
+  font-size: 1.75em;
+  color: #50394C;
+}
+.title {
+  font-family: 'exo-bold', arial, sans-serif;
+  font-size:1.2em;
+}
+.radio{
+  font-family: 'exo', arial, sans-serif;
+font-size:1.2em;
+}
+option {
+  font-family: 'exo', arial, sans-serif;
+font-size:1.2em;
+}
+input[type="submit"] {
+  font-family: 'vol-ital', serif;
+  font-size: 2em;
+  color: #C8c3CC;
+  background-color: #50394C;
+  border: 2px solid pink;
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+input[type="submit"]:hover {
+  font-family: 'vol-ital', serif;
+  font-size: 2em;
+  color: #50394C;
+  background-color: #C8C3CC;
+  border: 4px solid #50394C;
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
