@@ -1,5 +1,5 @@
 <img src="./images/skilogo.jpg" alt="Ski Gal Logo Site Sketch"
-	title="Ski Logo!" width="300" height="399" />
+	title="Ski Logo!" width="500" height="665" />
 
 padding: space between content and border, or the edge of the container
 
