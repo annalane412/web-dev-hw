@@ -44,20 +44,23 @@ li a {
       color: #C8C3CC;
       text-align: center;
       padding: 14px 16px;
-      text-decoration: none;
-
 }
-
+.dropitems a {
+    border-bottom: 2px solid #C8c3CC;
+}
+.dropitems a:first-child{
+  border-top: 2px solid #C8c3CC;
+}
 .dropitems {
   padding: 0px 25px;
   display: none;
   background-color: #50394C;
   color: #8CA3A3;
+
   z-index: 5;
 }
 .drop:hover .dropitems {
   display: block;
-
 }
 .dropitems a:hover {
   background-color: #8CA3A3;
@@ -72,13 +75,15 @@ li a {
 
 }
 h1{
-  font-family: 'vol', arial, sans-serif;
+  font-family: 'exo-light', arial, sans-serif;
   font-size: 30pt;
+  text-align: center;
   margin-top: 1.25em;
   border: 5px solid #50394C;
   padding: 20px;
   border-radius: 20px;
-  width: 450px;
+  width: 700px;
+
 }
 
 #main{
@@ -87,7 +92,7 @@ h1{
   left: 10px;
 }
 .font3{
-  font-family: 'vol-ital';
+  font-family: 'vol-ital', serif;
   font-size: 3em;
   float: right;
   width: 60%;
@@ -96,13 +101,13 @@ h1{
   z-index: 2;
 }
 .font2{
-  font-family: 'exo-boldital';
+  font-family: 'exo-boldital', sans-serif;
   position: fixed;
 
 }
 
 pre {
-  font-family: 'exo';
+  font-family: 'exo', sans-serif;
   padding-left: 10px;
   float: right;
     position: absolute;
@@ -113,9 +118,12 @@ pre {
 
 }
 pre:first-line,first-of-type {
-  font-family: 'vol-ital';
+  font-family: 'vol-ital', serif;
   font-size: 15pt;
   font-stretch: expanded;
   z-index: 1;
-
+}
+h4 {
+  font-family: 'exo-light', sans-serif;
+  font-size: .7em;
 }
